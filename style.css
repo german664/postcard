@@ -1,0 +1,112 @@
+body {
+    background: #181818;
+    font-family: 'Handlee', cursive;
+    ;
+}
+
+.postcard {
+    position: absolute;
+    background: #ffffff;
+    width: 450px;
+    height: 320px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+    font-size: 120%;
+    text-align: justify;
+    line-height: 90%;
+    padding: 0px 20px 0px 0px;
+}
+
+.firstdiv {
+
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+
+h1 {
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+
+}
+
+
+.logo {
+    width: 70px;
+    height: auto;
+
+}
+
+.secdiv {
+    display: flex;
+
+    flex: 2;
+    overflow: hidden;
+    padding: 0px 5px 5px 5px;
+    margin: 0;
+    justify-content: space-evenly
+}
+
+.secdiv div {
+    flex-basis: 50%;
+
+}
+
+.thirdiv {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+input,
+button {
+    font-family: 'Handlee', cursive;
+    border: none;
+}
+
+input[type=text] {
+    background: none;
+    border-bottom: 1px solid rgba(148, 143, 143, 0.74);
+    font-size: 110%;
+    width: 95%;
+
+}
+
+input[type=text]:focus,
+button[type=submit]:focus {
+    outline: none;
+}
+
+button[type=submit] {
+    background: rgb(196, 196, 196);
+    font-size: 130%;
+    padding: 0px 6px;
+    border-bottom: 0.8px solid rgb(126, 126, 126);
+}
+
+button[type=submit]:hover {
+    background: rgb(226, 226, 226);
+    transition: 0.2s;
+}
+
+button:active {
+    border: 1.1px solid rgb(126, 126, 126);
+
+}
+
+.fa-horse {
+    float: right;
+}
